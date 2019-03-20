@@ -3,7 +3,7 @@ def my_collect(list)
   newList = []
   
   while i < list.size
-    newList.push yield
+    newList.push(yield)
     i = i + 1
   end
 end
