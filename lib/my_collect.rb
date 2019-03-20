@@ -6,5 +6,6 @@ def my_collect(list)
     newList.push(yield[i])
     i = i + 1
   end
+  return newList
 end
 
